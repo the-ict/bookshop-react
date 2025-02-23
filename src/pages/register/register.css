@@ -1,0 +1,100 @@
+.register {
+    display: flex;
+}
+
+.register-img {
+    width: 50%;
+    height: 100vh;
+}
+
+.register-form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-form__container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 2rem;
+}
+
+.register-form__img {
+    width: 100%;
+    text-align: center;
+}
+
+.register-form__logo {
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.register-form h3 {
+    font-size: 14px;
+    color: #090937;
+}
+
+.register-form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form__inputs input {
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F4F4FF;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+}
+
+.password-input {
+    margin-bottom: 0px !important;
+}
+
+.register-remember {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.register-form__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register-form__buttons button {
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+
+.register-form__buttons button:first-child {
+    background-color: #EF6B4A;
+    color: white;
+}
+
+.register-form__buttons button:first-child:hover {
+    background-color: #f44e24;
+}
+
+.register-form__buttons button:last-child {
+    border: 2px solid #6251DD;
+    color: #6251DD;
+}
+
+.register-form__buttons button:last-child:hover {
+    background: #6251DD;
+    color: white;
+}

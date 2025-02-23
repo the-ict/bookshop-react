@@ -1,0 +1,48 @@
+.card {
+    width: 320px;
+    height: 180px;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    background: #F4F4FF;
+    border: .3px solid black;
+    transition: background 400ms ease-in-outs;
+}
+
+.card:hover {
+    background: #e0e0eb;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.book-content h3 {
+    font-weight: 600;
+}
+
+.book-content p {
+    color: #090937;
+    opacity: 60%;
+}
+
+.book-content span {
+    color: #6251DD;
+    font-weight: 600;
+}
+
+@media (max-width: 390px) {
+    .card {
+        width: 100%;
+    }
+}

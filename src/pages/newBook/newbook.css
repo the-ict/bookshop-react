@@ -1,0 +1,80 @@
+.newbook {
+    padding: 0px 50px;
+}
+
+.newbook-container {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.newbook-content {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newbook-content input,
+textarea {
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #a43b3b00;
+}
+
+.newbook-content textarea {
+    flex: 1;
+}
+
+.newbook-content label {
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.newbook button {
+    margin-top: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #06d50d;
+    color: white;
+    transition: background 300ms ease-in-out;
+}
+
+.newbook button:hover {
+    background: #00B207;
+}
+
+.newbook-file {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newbook-category {
+    width: max-content;
+    padding: 5px 10px;
+    background-color: #F4F4FF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newbook-category i {
+    font-size: 12px;
+}
+
+.newbook-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -1,0 +1,120 @@
+.checkout {
+    padding: 0px 50px;
+}
+
+.checkout-content {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.checkout-details {
+    flex: 3;
+}
+
+.checkout-details__arrow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkout-details__arrow i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.checkout-content hr {
+    margin: 20px 0px;
+}
+
+.checkout-details__items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.checkout-details__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #F4F4FF;
+    padding: 10px;
+    transition: all 400ms ease-in-out;
+    gap: 10px;
+}
+
+.checkout-details__item:hover {
+    background-color: #8686ea;
+    color: white;
+}
+
+.checkout-details__item img {
+    height: 100%;
+    width: 80px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.checkout-details__item i {
+    cursor: pointer;
+}
+
+.checkout-payment {
+    width: 500px;
+    padding: 50px;
+    height: max-content;
+    background-color: #F4F4FF;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.checkout-payment div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.checkout-payment button {
+    width: 100%;
+    height: 30px;
+    padding: 4px 0px;
+    border-radius: 10px;
+    background: #00B207;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: background-color 300ms ease-in-out;
+}
+
+.checkout-payment button:hover {
+    background-color: #06d50d;
+}
+
+@media (max-width: 379px) {
+    .checkout {
+        padding: 0px 10px;
+    }
+
+    .details-item__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .checkout-content {
+        flex-direction: column;
+    }
+
+    .checkout-payment {
+        width: 100%;
+        padding: 25px;
+    }
+}
